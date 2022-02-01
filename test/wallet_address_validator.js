@@ -834,6 +834,10 @@ describe('WAValidator.validate()', function () {
             valid('tsys1quuu4ach5npjp3vpmaezzctc9r33405p39khz67', 'sys', 'testnet');
             valid('TP81Y6pnybiw93vwHugV5zvKizg2rLQBGE', 'sys', 'testnet')
         })
+        
+        it('should return true for correct xdc addresses', function () {
+            valid('xdc12301c38f07a30d60f474366b4d4ef9c4298f06e', 'xdc');
+        });
     });
 
     describe('invalid results', function () {
