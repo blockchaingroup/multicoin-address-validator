@@ -145,7 +145,8 @@
         "test:node": "mocha test",
         "test:browser": "npm run bundle && npm run minify && karma start",
         "test": "npm run test:node && npm run test:browser",
-        "start": "npm run bundle && npm run minify && npm test"
+        "start": "npm run bundle && npm run minify && npm test",
+        "release": "standard-version && git push --follow-tags"
     },
     "dependencies": {
         "base-x": "^3.0.9",
