@@ -134,6 +134,7 @@ npm install multicoin-address-validator
 * Storj/storj `'Storj'` or `'storj'`
 * Storm/storm `'Storm'` or `'storm'`
 * StormX/stmx `'StormX'` or `'stmx'`
+* Stacks/stx `'Stacks'` or `'stx'`
 * Swarm City/swt `'Swarm City'` or `'swt'`
 * Synthetix Network/snx `'Synthetix Network'` or `'snx'`
 * Syscoin `'Syscoin'` or `'sys'`

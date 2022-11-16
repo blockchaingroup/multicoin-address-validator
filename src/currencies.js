@@ -18,6 +18,7 @@ var DotValidator = require('./dot_validator');
 var BIP173Validator = require('./bip173_validator')
 var Base58Validator = require('./base58_validator')
 var XDCValidtaor = require('./xinfin_validator');
+var STXValidator = require('./stx_validator');
 
 // defines P2PKH and P2SH address types for standard (prod) and testnet networks
 var CURRENCIES = [{
@@ -607,6 +608,11 @@ var CURRENCIES = [{
         symbol: 'XDC',
         validator: XDCValidtaor
     },
+    {
+        name: 'Stacks',
+        symbol: 'stx',
+        validator: STXValidator
+    }
 ];
 
 

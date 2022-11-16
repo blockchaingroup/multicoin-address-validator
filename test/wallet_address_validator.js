@@ -834,10 +834,17 @@ describe('WAValidator.validate()', function () {
             valid('tsys1quuu4ach5npjp3vpmaezzctc9r33405p39khz67', 'sys', 'testnet');
             valid('TP81Y6pnybiw93vwHugV5zvKizg2rLQBGE', 'sys', 'testnet')
         })
-        
+
         it('should return true for correct xdc addresses', function () {
             valid('xdc12301c38f07a30d60f474366b4d4ef9c4298f06e', 'xdc');
         });
+
+        it('should return true for correct stx addresses', function () {
+            valid('SP27SD3H5TTZXPBFXHN1ZNMFJ3HNE2070QWHH3BXX', 'stx');
+            valid('ST2ZRX0K27GW0SP3GJCEMHD95TQGJMKB7G9Y0X1MH', 'stx');
+            valid('STB44HYPYAT2BB2QE513NSP81HTMYWBJP02HPGK6', 'stx');
+            valid('ST11NJTTKGVT6D1HY4NJRVQWMQM7TVAR091EJ8P2Y', 'stx');
+        })
     });
 
     describe('invalid results', function () {
@@ -1195,7 +1202,16 @@ describe('WAValidator.validate()', function () {
             invalid('addr1skemppmfevyk0lshu2w8j34707s3t3t58a04xcx5ccevrcmvpmxg2qt4pk0', 'sol', 'testnet');
         });
 
-
+        it('should return false for incorrect stx addresses', function () {
+            commonTests('stx');
+            invalid('1234567890123', 'stx');
+            invalid('12345678901', 'stx');
+            invalid('12345678901@', 'stx');
+            invalid('SP27SD3H5TTZXPBFXHN1ZNMFJ3HNE2070QWHH3BX', 'stx');
+            invalid('ST2ZRX0K27GW0SP3GJCEMHD95TQGJMKB7G9Y0X1sdf', 'stx');
+            invalid('STB44HYPYAT2BB2QE513NSP81HTMYWBJP02HPG', 'stx');
+            invalid('ST11NJTTKGVT6D1HY4NJRVQWMQM7TVAR091EP2Y', 'stx');
+        })
     });
 
 });
