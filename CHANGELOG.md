@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.10](https://github.com/christsim/multicoin-address-validator/compare/v0.5.9...v0.5.10) (2022-11-16)
+
+
+### Features
+
+* Add Stacks/STX ([0693cf3](https://github.com/christsim/multicoin-address-validator/commit/0693cf30accee97c45902f257c7c408569bcf6e5))
+
 ### [0.5.9](https://github.com/christsim/multicoin-address-validator/compare/v0.2.1...v0.5.9) (2022-02-01)
 
 
