@@ -251,7 +251,7 @@
         "Kaia",
         "kaia"
     ],
-    "version": "0.5.10",
+    "version": "0.5.11",
     "author": "Chris <chris.tsim@gmail.com>",
     "homepage": "https://github.com/christsim/multicoin-address-validator",
     "license": "MIT",
@@ -294,6 +294,7 @@
         "karma-mocha": "^2.0.1",
         "minify": "^6.0.1",
         "mocha": "^8.3.2",
+        "standard-version": "^9.5.0",
         "uglify-es": "^3.3.9"
     },
     "standard": {

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.11](https://github.com/christsim/multicoin-address-validator/compare/v0.5.10...v0.5.11) (2025-02-06)
+
+
+### Features
+
+* add Kaia/kaia ([302b22d](https://github.com/christsim/multicoin-address-validator/commit/302b22dffe132b016887b9cee09081f16070f23d))
+
 ### [0.5.10](https://github.com/christsim/multicoin-address-validator/compare/v0.5.9...v0.5.10) (2022-11-16)
 
 
