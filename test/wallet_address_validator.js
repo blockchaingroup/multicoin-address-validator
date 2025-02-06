@@ -845,6 +845,12 @@ describe('WAValidator.validate()', function () {
             valid('STB44HYPYAT2BB2QE513NSP81HTMYWBJP02HPGK6', 'stx');
             valid('ST11NJTTKGVT6D1HY4NJRVQWMQM7TVAR091EJ8P2Y', 'stx');
         })
+
+        it('should return true for correct kaia addresses', function () {
+            valid('0xcccccccc6d5f77db86097b3cb52356744e5e7fa2', 'kaia');
+            valid('0xba7114d877d85699a3d7e3a69a9e9f04aa42b5d3', 'kaia');
+            valid('0x0000000072ef09a65bf7715eee729ac702546aec', 'kaia');
+        });
     });
 
     describe('invalid results', function () {
@@ -1550,7 +1556,6 @@ describe('invalid results', function () {
         invalid('15FKUKXC6kwaXxJ1tNywmFy4ZY6FoDFCnU3fMbibFdeqwGw', 'dot');
         invalid('CxDDSH8gS7jecsxaRL8Txf8H5kqesLXAEAEgp76Yz632J9M', 'dot');
     });
-
 
 });
 

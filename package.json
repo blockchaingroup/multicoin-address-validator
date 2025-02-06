@@ -247,7 +247,9 @@
         "ZClassic",
         "zcl",
         "ZenCash",
-        "zen"
+        "zen",
+        "Kaia",
+        "kaia"
     ],
     "version": "0.5.10",
     "author": "Chris <chris.tsim@gmail.com>",

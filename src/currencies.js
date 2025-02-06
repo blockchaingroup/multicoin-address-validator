@@ -612,6 +612,11 @@ var CURRENCIES = [{
         name: 'Stacks',
         symbol: 'stx',
         validator: STXValidator
+    },
+    {
+        name: 'Kaia',
+        symbol: 'kaia',
+        validator: ETHValidator
     }
 ];
 
